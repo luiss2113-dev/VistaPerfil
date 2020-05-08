@@ -11,6 +11,11 @@ import android.widget.Toast;
 import com.google.android.material.bottomappbar.BottomAppBar;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.luseen.spacenavigation.SpaceItem;
+import com.luseen.spacenavigation.SpaceNavigationView;
+import com.luseen.spacenavigation.SpaceOnClickListener;
+
+import java.util.Set;
 
 public class MainActivity extends AppCompatActivity {
     FloatingActionButton actionButtom;
@@ -20,26 +25,30 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+        final SpaceNavigationView spaceNavigationView = (SpaceNavigationView) findViewById(R.id.space);
+        spaceNavigationView.initWithSaveInstanceState(savedInstanceState);
+        spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.inicio_a));
+        spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.categoria_i));
+        spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.historial_i));
+        spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.perfil_i));
+
+        spaceNavigationView.setSpaceOnClickListener(new SpaceOnClickListener() {
             @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.nav1:
-                        Toast.makeText(MainActivity.this, "1", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.nav2:
-                        Toast.makeText(MainActivity.this, "2", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.nav3:
-                        Toast.makeText(MainActivity.this, "3", Toast.LENGTH_SHORT).show();
-                        break;
-                }
-                return true;
+            public void onCentreButtonClick() {
+                Toast.makeText(MainActivity.this,"onCentreButtonClick", Toast.LENGTH_SHORT).show();
+                spaceNavigationView.setCentreButtonSelectable(true);
+            }
+
+            @Override
+            public void onItemClick(int itemIndex, String itemName) {
+                Toast.makeText(MainActivity.this, itemIndex + " " + itemName, Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onItemReselected(int itemIndex, String itemName) {
+                Toast.makeText(MainActivity.this, itemIndex + " " + itemName, Toast.LENGTH_SHORT).show();
             }
         });
 
     }
-
-
 }
