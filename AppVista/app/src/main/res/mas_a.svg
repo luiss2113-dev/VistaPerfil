@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__mas-a" width="55.656" height="55.656" viewBox="0 0 55.656 55.656">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Trazado_4878" d="M25.045 25.045H13.914v5.566h11.131v11.131h5.566V30.611h11.131v-5.566H30.611V13.914h-5.566zm2.783 30.611a27.828 27.828 0 1 1 27.828-27.828 27.91 27.91 0 0 1-27.828 27.828z" class="prefix__cls-1" data-name="Trazado 4878"/>
+        </clipPath>
+        <clipPath id="prefix__clip-path-2">
+            <path id="prefix__Rectángulo_1713" d="M0 0H10419.24V6984.484H0z" class="prefix__cls-1" data-name="Rectángulo 1713"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1{fill:#ff883c}
+        </style>
+    </defs>
+    <g id="prefix__Grupo_242" data-name="Grupo 242">
+        <g id="prefix__Grupo_241" data-name="Grupo 241" transform="translate(-1586.35 -6216.92)">
+            <path id="prefix__Rectángulo_1712" d="M0 0H84.017V84.017H0z" class="prefix__cls-1" data-name="Rectángulo 1712" transform="translate(1572.006 6202.903)"/>
+        </g>
+    </g>
+</svg>

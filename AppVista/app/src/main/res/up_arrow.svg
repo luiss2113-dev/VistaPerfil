@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.328" height="39.56" viewBox="0 0 43.328 39.56">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__up-arrow" transform="translate(0 -21.333)">
+        <g id="prefix__Grupo_251" data-name="Grupo 251" transform="translate(0 21.333)">
+            <g id="prefix__Grupo_250" data-name="Grupo 250">
+                <path id="prefix__Trazado_4891" d="M43.053 42.331L22.33 21.609a.943.943 0 0 0-1.332 0L.276 42.331a.942.942 0 0 0 1.332 1.332l20.055-20.058 20.056 20.058a.942.942 0 0 0 1.334-1.332z" class="prefix__cls-1" data-name="Trazado 4891" transform="translate(0 -21.333)"/>
+            </g>
+        </g>
+        <g id="prefix__Grupo_253" data-name="Grupo 253" transform="translate(0 38.288)">
+            <g id="prefix__Grupo_252" data-name="Grupo 252">
+                <path id="prefix__Trazado_4892" d="M43.053 234.331L22.33 213.609a.943.943 0 0 0-1.332 0L.276 234.331a.942.942 0 1 0 1.332 1.332l20.056-20.058 20.056 20.058a.942.942 0 1 0 1.334-1.332z" class="prefix__cls-1" data-name="Trazado 4892" transform="translate(0 -213.333)"/>
+            </g>
+        </g>
+    </g>
+</svg>

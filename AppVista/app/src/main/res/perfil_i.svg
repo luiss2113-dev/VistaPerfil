@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__perfil-i" width="15.2" height="20" viewBox="0 0 15.2 20">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Trazado_4880" d="M10 9.5a3.8 3.8 0 1 0-3.8-3.8A3.8 3.8 0 0 0 10 9.5zm0 1.9a5.7 5.7 0 1 1 5.7-5.7 5.7 5.7 0 0 1-5.7 5.7zM2.4 20a7.6 7.6 0 1 1 15.2 0h-1.9a5.7 5.7 0 0 0-11.4 0z" class="prefix__cls-1" data-name="Trazado 4880" transform="translate(-2.4)"/>
+        </clipPath>
+        <clipPath id="prefix__clip-path-2">
+            <path id="prefix__Rectángulo_1717" d="M0 0H3565.7V2390.5H0z" class="prefix__cls-1" data-name="Rectángulo 1717"/>
+        </clipPath>
+        <linearGradient id="prefix__linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#1a86ae"/>
+            <stop offset="1" stop-color="#00a8d5"/>
+        </linearGradient>
+        <style>
+            .prefix__cls-1{fill:url(#prefix__linear-gradient)}
+        </style>
+    </defs>
+    <g id="prefix__Grupo_246" data-name="Grupo 246">
+        <g id="prefix__Grupo_245" data-name="Grupo 245" transform="translate(-2537.2 -413.3)">
+            <path id="prefix__Rectángulo_1716" d="M0 0H24.8V29.5H0z" class="prefix__cls-1" data-name="Rectángulo 1716" transform="translate(2532.4 408.5)"/>
+        </g>
+    </g>
+</svg>

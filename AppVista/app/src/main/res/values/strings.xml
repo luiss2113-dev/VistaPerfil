@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">vistaPerfil</string>
+    <string name="nombre_cliente">Madeleine Penelope</string>
+    <string name="cargo">Electrónico Telecomunicaciones</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/view_principal"/>
+
+       <!-- <com.google.android.material.bottomappbar.BottomAppBar
+            style="@style/Widget.MaterialComponents.BottomAppBar"
+            android:layout_width="match_parent"
+            android:id="@+id/bottom_app_bar"
+            android:layout_height="wrap_content"
+            app:fabAlignmentMode="center"
+            app:fabAttached="true"
+            app:menu="@menu/botton_app"
+            app:fabCradleRoundedCornerRadius="-5dp"
+            app:fabCradleDiameter="0dp"
+            android:layout_gravity="bottom">
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
+    -->
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            app:itemIconTint="#526876"
+            app:menu="@menu/botton_app" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_navigation"
+            android:layout_marginBottom="819dp"
+            android:backgroundTint="#F44336"
+            android:src="@drawable/ic_add_black_24dp"
+            app:fabCustomSize="70dp"
+            app:layout_anchor="@id/bottom_navigation" />
+
+    </RelativeLayout>
+
+</LinearLayout>
