@@ -3,24 +3,49 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <group android:checkableBehavior="none">
+
         <item
             android:id="@+id/nav1"
             android:icon="@drawable/inicio_a"
             android:enabled="true"
-            app:showAsAction="ifRoom"
-            android:title="1" />
-        <item
-            android:id="@+id/nav2"
-            android:icon="@drawable/categoria_i"
-            android:enabled="true"
             android:title="2"
             app:showAsAction="ifRoom"/>
+
+        <item
+        android:id="@+id/nav2"
+        android:icon="@drawable/categoria_i"
+        android:enabled="true"
+        android:title="2"
+        app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/espacio"
+            app:showAsAction="ifRoom"
+            android:title="Espacio" />
+
         <item
             android:id="@+id/nav3"
             android:icon="@drawable/historial_i"
             android:enabled="true"
             android:title="3"
             app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/dat"
+            app:showAsAction="ifRoom"
+            android:title="INICIO">
+        </item>
+
     </group>
+
+    <!--
+
+    <item
+            android:id="@+id/nav3"
+            android:icon="@drawable/historial_i"
+            android:enabled="true"
+            android:title="3"
+            app:showAsAction="ifRoom"/>
+            -->
 
 </menu>
